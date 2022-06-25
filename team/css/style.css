@@ -4,8 +4,9 @@
 
 .our-team .pic{
     position: relative;
-    border-radius: 50%;
-    overflow: hidden;
+    height: 300px;
+    border-radius: 100%;
+    overflow:hidden;
 }
 
 .our-team .pic:before{
@@ -89,9 +90,18 @@
     margin-top: 10px;
 }
 
+#header-team{
+    text-align: center;
+    font-weight:bold;
+    font-size: xxx-large;
+    color: rgb(150, 98, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .our-team .post{
     display: block;
     font-size: 14px;
+    font-weight: bolder;
     color: #687177;
     text-transform: capitalize;
 }
